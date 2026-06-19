@@ -76,8 +76,9 @@ const Footer = () => {
             <div className=''><FaInstagram className='font-dmsans text-[24px] text-[#262626]' /></div>
           </div>
 
-          <div className=" w-full lg:w-[50%] flex lg:justify-end">
+          <div className=" w-full lg:w-[50%] flex flex-col gap-1 lg:items-end items-center justify-center">
             <p className='font-dmsans text-[14px] text-[#6D6D6D] font-normal leading-[23px] text-center mt-5 lg:mt-0'>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+            <p className='font-dmsans text-[13px] text-[#6D6D6D] font-normal leading-[23px] text-center'>Explore tools on <a href="https://costnest.site" target="_blank" rel="noopener noreferrer" className="underline hover:text-black transition-colors font-medium">CostNest</a></p>
           </div>
       </Flex>
     </Container>
